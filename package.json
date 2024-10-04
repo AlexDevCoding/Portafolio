@@ -3,6 +3,7 @@
     "tailwindcss": "^3.4.13"
   },
   "dependencies": {
+    "@preline/carousel": "^2.5.0",
     "flowbite": "^2.5.2",
     "preline": "^2.5.0"
   }
