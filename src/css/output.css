@@ -878,14 +878,6 @@ video {
   height: 100%;
 }
 
-.h-32 {
-  height: 8rem;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -920,10 +912,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .min-w-\[150px\] {
@@ -1299,11 +1287,6 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1584,6 +1567,12 @@ video {
 
 .opacity-100 {
   opacity: 1;
+}
+
+.shadow-\[0px_20px_207px_10px_rgba\(165\2c _39\2c _255\2c _0\.48\)\] {
+  --tw-shadow: 0px 20px 207px 10px rgba(165, 39, 255, 0.48);
+  --tw-shadow-colored: 0px 20px 207px 10px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-lg {
