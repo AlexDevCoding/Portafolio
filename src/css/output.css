@@ -1287,12 +1287,21 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[linear-gradient\(to_right\2c \#4f4f4f2e_1px\2c transparent_1px\)\2c linear-gradient\(to_bottom\2c \#8080800a_1px\2c transparent_1px\)\] {
+  background-image: linear-gradient(to right,#4f4f4f2e 1px,transparent 1px),linear-gradient(to bottom,#8080800a 1px,transparent 1px);
 }
 
 .from-pink-300 {
@@ -1308,6 +1317,10 @@ video {
 
 .to-indigo-400 {
   --tw-gradient-to: #818cf8 var(--tw-gradient-to-position);
+}
+
+.bg-\[size\:14px_24px\] {
+  background-size: 14px 24px;
 }
 
 .fill-black {
@@ -1567,12 +1580,6 @@ video {
 
 .opacity-100 {
   opacity: 1;
-}
-
-.shadow-\[0px_20px_207px_10px_rgba\(165\2c _39\2c _255\2c _0\.48\)\] {
-  --tw-shadow: 0px 20px 207px 10px rgba(165, 39, 255, 0.48);
-  --tw-shadow-colored: 0px 20px 207px 10px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-lg {
