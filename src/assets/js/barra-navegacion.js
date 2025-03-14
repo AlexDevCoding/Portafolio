@@ -13,10 +13,10 @@
               const id = entry.target.getAttribute('id');
               navLinks.forEach(link => {
                 if (link.getAttribute('href') === `#${id}`) {
-                  link.classList.add('border-blue-700', 'text-[#e1e7f8]');
+                  link.classList.add('border-blue-700', 'text-[#f2f4fc]');
                   link.classList.remove('border-transparent', 'text-[#222449]');
                 } else {
-                  link.classList.remove('border-blue-700', 'text-[#e1e7f8]');
+                  link.classList.remove('border-blue-700', 'text-[#f2f4fc]');
                   link.classList.add('border-transparent', 'text-[#222449]');
                 }
               });
